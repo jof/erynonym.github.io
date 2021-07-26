@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-size: 16px;
+    line-height: 25px;
+    color: #444444;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #221e1e;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile-div h5 {
+    color: #474646;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.profile-div img {
+    border: 10px solid whitesmoke;
+}
+
+
+.my-list {
+    list-style: none;
+    padding: 0;
+}
+
+    .my-list li {
+        color: pink;
+        text-decoration: none;
+        display: block;
+        color: #fb9eae;
+        font-size: 19px;
+        margin-bottom: 20px;
+    }
+
+        .my-list li a {
+            text-decoration: none;
+            display: inline-block;
+            color: #e17084;
+            font-size: 18px;
+        }
+
+            .my-list li a:hover {
+                opacity: 0.9;
+            }
+
+
+.my-list-left {
+    margin-right: 40px;
+}
+
+.my-list-right {
+    margin-left: 40px;
+}
+
+
+@media(max-width:767px) {
+    .my-list-left {
+        margin-right: 0px;
+    }
+
+    .my-list-right {
+        margin-left: 0px;
+    }
+
+    .profile-div img {
+        width: 80%;
+    }
+}
